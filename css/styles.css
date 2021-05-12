@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,88 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Helvetica, sans-serif, Arial;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 1em 2em;
+  max-width: 60%;
+}
+
+.title {
+  color: #2c3e50;
+}
+
+summary {
+  color: #2c3e50;
+}
+
+summary:hover {
+  cursor: pointer;
+}
+
+summary:focus {
+  outline: none;
+}
+
+.summary {
+  display: inline-block;
+  margin: 0;
+}
+
+details {
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #2c3e50;
+}
+
+details[open] {
+  border-bottom: 1px solid #c0392b;
+}
+
+details[open] > summary {
+  color: #c0392b;
+}
+
+details[open] > summary ~ *{
+  animation: open 1s ease;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 599px) {
+  .card {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.5em;
+  }
+
+  details {
+    padding: 1em 0.5em;
+  }
 }
 
 #contact h1 {
