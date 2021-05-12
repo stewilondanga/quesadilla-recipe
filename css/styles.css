@@ -10,6 +10,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: Helvetica, sans-serif, Arial;
+  margin: 0 auto;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -119,11 +124,6 @@ html {
   transition-delay: 0.4s;
 }
 
-
-body {
-  font-family: Helvetica, sans-serif, Arial;
-  margin: 0 auto;
-}
 
 .card {
   margin: 0 auto;
