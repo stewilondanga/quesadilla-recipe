@@ -194,7 +194,6 @@ details[open]>summary~* {
   margin: 0 auto;
 }
 
-/*
 .cal {
   display: inline-block;
   background: #ffe;
@@ -205,6 +204,7 @@ details[open]>summary~* {
   transition: all 0.2s linear;
 }
 
+/*
 .cal:hover {
   transform: scale(2.5);
   transition: all 0.4s linear;
