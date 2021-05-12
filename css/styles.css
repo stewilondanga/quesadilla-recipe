@@ -139,12 +139,12 @@ summary:focus {
   outline: none;
 }
 
-/*
 .summary {
   display: inline-block;
   margin: 0;
 }
 
+/*
 details {
   padding: 1em 1.5em;
   border-bottom: 1px solid #2c3e50;
