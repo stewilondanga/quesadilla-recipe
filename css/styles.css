@@ -183,7 +183,6 @@ details[open]>summary~* {
   }
 }
 
-/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
@@ -195,6 +194,7 @@ details[open]>summary~* {
   margin: 0 auto;
 }
 
+/*
 .cal {
   display: inline-block;
   background: #ffe;
