@@ -149,11 +149,11 @@ details {
   border-bottom: 1px solid #2c3e50;
 }
 
-/*
 details[open] {
   border-bottom: 1px solid #c0392b;
 }
 
+/*
 details[open] > summary {
   color: #c0392b;
 }
