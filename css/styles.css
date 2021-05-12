@@ -4,6 +4,12 @@ html {
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -113,12 +119,6 @@ html {
   transition-delay: 0.4s;
 }
 
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 
 body {
   font-family: Helvetica, sans-serif, Arial;
