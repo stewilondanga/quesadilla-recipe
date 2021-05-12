@@ -161,16 +161,17 @@ details[open]>summary~* {
   animation: open 1s ease;
 }
 
-/*
 @keyframes open {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
+/*
 @media (max-width: 599px) {
   .card {
     margin: 0 auto;
