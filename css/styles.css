@@ -153,11 +153,11 @@ details[open] {
   border-bottom: 1px solid #c0392b;
 }
 
-/*
-details[open] > summary {
+details[open]>summary {
   color: #c0392b;
 }
 
+/*
 details[open] > summary ~ *{
   animation: open 1s ease;
 }
