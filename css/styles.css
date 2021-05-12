@@ -135,11 +135,11 @@ summary:hover {
   cursor: pointer;
 }
 
-/*
 summary:focus {
   outline: none;
 }
 
+/*
 .summary {
   display: inline-block;
   margin: 0;
